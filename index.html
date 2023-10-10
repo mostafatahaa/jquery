@@ -4,18 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Learn JQuery</title>
 </head>
 
 <body>
-    <p>1</p>
-    <p>2</p>
-    <p>3</p>
-    <p>3</p>
-    <p>3</p>
-    <p class="para">4</p>
-    <p class="para">5</p>
-    <p class="test">5</p>
+    <header>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="about">About</a></li>
+            <li><a href="#" id="portfolio">portfolio</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="home">
+        <p>Some cool description</p>
+    </section>
+
+    <section class="about">
+        <p>Some cool description</p>
+    </section>
+
+    <section class="portfolio">
+        <p>Some cool description</p>
+
+        <div class="tabs">
+            <button class="all">All images</button>
+            <button class="image1">Image 1</button>
+            <button class="image2">Image 2</button>
+            <button class="image3">Image 3</button>
+        </div>
+
+        <div class="images">
+            <img class="image1" src="images/image (1).jpeg" alt="">
+            <img class="image1" src="images/image (2).jpeg" alt="">
+            <img class="image2" src="images/image (3).jpeg" alt="">
+            <img class="image2" src="images/image (4).jpeg" alt="">
+            <img class="image3" src="images/image (5).jpeg" alt="">
+            <img class="image3" src="images/image (6).jpeg" alt="">
+        </div>
+    </section>
+
+    <section class="contact">
+        <p>Some cool description</p>
+        <input type="text">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+    </section>
+
+    <div class="scroll-top">Scroll to top</div>
+
     <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
